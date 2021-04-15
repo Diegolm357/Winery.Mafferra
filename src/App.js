@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './component/NavBar';
 import Logo from './component/Logo';
-import WidtCard from './component/WidtCard';
+
 
 function App() {
     return ( < div className = "App" >
@@ -24,8 +24,7 @@ function App() {
         header >
 
 
-        <
-        WidtCard / >
+
         <
         /div> 
     );

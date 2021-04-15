@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import { Nav } from 'react-bootstrap';
+import WidtCard from './WidtCard';
+import ListltemConteiner from './ListltemConteiner';
+
 class NavBar extends Component {
     render() {
 
         return ( <
+            div >
+            <
             div >
             <
             Nav defaultActiveKey = "/home"
@@ -21,7 +26,18 @@ class NavBar extends Component {
             <
             Nav.Link eventKey = "link-2" > ESPUMANTE < /Nav.Link> < /
             Nav.Item > <
-            /Nav> < /
+            /Nav>  < /
+            div >
+
+            <
+            section >
+            <
+            WidtCard / >
+            <
+            ListltemConteiner(
+                this.props.name) /
+            > < /
+            section > < /
             div >
         );
 
