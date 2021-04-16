@@ -34,9 +34,10 @@ class NavBar extends Component {
             <
             WidtCard / >
             <
-            ListltemConteiner(
-                this.props.name) /
-            > < /
+            ListltemConteiner Greeting = "Diego" /
+            >
+            <
+            /
             section > < /
             div >
         );

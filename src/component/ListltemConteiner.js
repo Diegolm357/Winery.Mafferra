@@ -1,22 +1,20 @@
 import React, { Component } from 'react';
 
-const greeting = (props) => {
-    return <p > { props.name } < /p>; 
-};
-
-
 
 class ListltemConteiner extends Component {
-
+    constructor(props) {
+        super(props);
+        console.log(props);
+        console.log(this.props);
+    }
 
     render() {
 
-        return (
+        return ( <
+            div > < p > hola hola { this.props.Greeting } < /p> 
 
             <
-            greeting name = "Diego" / >
-
-
+            /div>
         );
 
     }
